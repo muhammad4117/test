@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+* {
+  margin: 0;
+}
+body {
+  background: #effafa;
+  font-family: "League Spartan", sans-serif;
+}
+header {
+  width: 100%;
+}
+.mask {
+  height: 30%;
+  width: 100%;
+}
+.header-container {
+  width: 100%;
+}
+.dev1 {
+  border-left: 5px solid #5ca5a5;
+}
+.section {
+  display: flex;
+  justify-content: center;
+}
+.section-container {
+  max-width: 1440px;
+}
+.dev {
+  max-width: 1110px;
+  display: flex;
+  margin: 24px;
+  gap: 24px;
+  border-radius: 5px;
+  align-items: center;
+  padding: 32px 48px 32px 40px;
+  background: #fff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+}
+.btn-new {
+  border-radius: 12px;
+  align-self: center;
+  background: #5ca5a5;
+  padding: 7px 8px 3px 8px;
+  flex-shrink: 0;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.108px;
+  cursor: pointer;
+  align-self: center;
+}
+.btn-f {
+  padding: 7px 8px 3px 8px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #2b3939;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 14px;
+  letter-spacing: -0.108px;
+}
+.text {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.title-list {
+  display: flex;
+  color: #7c8f8f;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 24px;
+  letter-spacing: -0.138px;
+  gap: 38px;
+  margin-top: 7px;
+}
+.title-list :nth-child(1) {
+  list-style: none;
+  margin-left: 0;
+}
+.info {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: end;
+}
+.item {
+  padding: 5px 10px 3px 9px;
+  border-radius: 4px;
+  background: #c2eaea;
+  color: #5ca5a5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.123px;
+  cursor: pointer;
+}
+hr {
+  display: none;
+}
+h3 {
+  color: #5ca5a5;
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (width <=1280px) {
+  .dev {
+    flex-direction: column;
+    align-items: start;
+    max-width: 327px;
+  }
+  .mask {
+  }
+  .info {
+    justify-content: start;
+  }
+  .title-list {
+    margin-bottom: 15px;
+  }
+  hr {
+    display: block;
+  }
+  h3 {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px; /* 160% */
+  }
+}
